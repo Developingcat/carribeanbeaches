@@ -1,0 +1,181 @@
+/* CSS Document */
+
+
+
+
+
+/* Imported fonts! */
+
+/*Madimi One and Signika Negative! */
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Signika+Negative:wght@300..700&display=swap');
+	
+
+/*CSS Reset */
+head, title, body, p, h4, header, h1, blockquote, img, nav, ul, li, main, table, td, tr, th, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Header */
+
+
+header {
+	background-image: url("../images/home_Beach.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height: 650px;
+}
+
+header h1 {
+	text-align: center;
+	color: #0B2C3E;
+	font-weight: bold;
+	font-family: "Madimi One", "Signika Negative", "sans serif";
+	font-size: 4.4em;
+}
+
+blockquote {
+	text-align: center;
+	font-family:"Madimi One", "Signika Negative", "sans serif";
+	font-size: 2.8em;
+	color: #001D3D;
+}
+
+/* Navigation */
+
+nav {
+	color: #E5C47A;
+	background: #ECE6BB;
+	width:100%;
+	margin: 0;
+	display: block;
+} 
+
+nav li {
+	text-align: none;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 2em;
+}
+
+nav ul {
+	text-align: center;
+	font-family: "Signika Negative","Madimi One", "sans serif";
+}
+
+nav li a {
+	text-decoration: none;
+	color: #432505;
+	display: inline-block;
+	padding: 0 3px 0 3px;
+}
+
+nav li a:hover {
+	text-decoration: overline;
+	color: #234061;
+	background-color:#5EA0D2;
+	
+}
+
+
+/*body content */
+
+
+h4 {
+	margin: 100px 0 0 5px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 4.25em;
+	font-family:"Madimi One", "Signika Negative", "sans serif"; 
+	color: #161E2E;
+	text-decoration: underline; 
+	border: #08113D;
+	border-radius: 15px 15px 15px 15px;
+}
+
+
+p {
+	font-family: "Signika Negative","Madimi One", "sans serif";
+	font-size: 1.5em;
+	color: #1C3C5E;
+	clear: both;
+
+}
+
+body {
+	background-color: #8FC0E4;
+	float: clear;
+}
+
+img {
+	max-height: 350px;
+	max-width: 1080px;
+	background-repeat: no-repeat;
+}
+
+/*table rules */
+
+#container {
+	width: 80%;
+	background: #597AC3;
+	border: thick #0F2751;
+}
+
+table {
+	width:50%;
+	border: 1.5em #121837;
+	font-family:"Signika Negative","Madimi One", "sans serif"; 
+}
+
+td img {
+	max-width: 80%;
+	max-height: 100%;
+}
+label {
+	padding: 0 5px; 
+	font-size: 1.em;
+	font-family: "Signika Negative","Madimi One", "sans serif"; 
+	color: #1C3C5E;
+	
+}
+
+.frmButton {
+	margin: 15%;
+	width: 10em;
+	background-color: #FADA8D;
+	font-family: "Signika Negative","Madimi One", "sans serif";
+	color: #895307;
+	height: 3em;
+	border-radius: 15px;
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+
+.frmButton:hover { 
+	color: #F2E3BE;
+	background: #C79B4C;
+    font-family: "Signika Negative","Madimi One", "sans serif";
+  }
+/*Footer rules*/
+footer nav a:hover {
+	text-decoration: underline;
+	clear: both;
+}
+
+footer p {
+	clear: right;
+	text-align: center;
+	font-family: "Signika Negative","Madimi One", "sans serif";
+	font-size: .75em;
+}
+
+footer {
+	clear: right;
+	background-image: url("../images/home_Beach.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height: 120px;
+	
+}
